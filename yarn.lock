@@ -236,6 +236,11 @@
   dependencies:
     "@axinom/mosaic-core" "^0.4.3"
 
+"@axinom/mosaic-managed-workflow-integration@^0.1.0-rc.0":
+  version "0.1.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@axinom/mosaic-managed-workflow-integration/-/mosaic-managed-workflow-integration-0.1.0-rc.0.tgz#918867cdc29a0cadda0f8161a15e380533bd2104"
+  integrity sha512-QHX98m4rgOSuc6UPCfgkAFIt3mXuNu9WVYsaqX2SKr3SMYrt3zehdWcD61x9/yhaZTmzdGM9SrvGXgDq4nv87Q==
+
 "@axinom/mosaic-message-bus-abstractions@0.5.3", "@axinom/mosaic-message-bus-abstractions@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@axinom/mosaic-message-bus-abstractions/-/mosaic-message-bus-abstractions-0.5.3.tgz#2e975bdc5bb4849fc16f09c0c941325d3019480a"
@@ -259,10 +264,10 @@
   resolved "https://registry.yarnpkg.com/@axinom/mosaic-messages/-/mosaic-messages-0.27.0.tgz#4da1d858fdc67369b1bb725fdb3f94e40af504f4"
   integrity sha512-x2nNGMau0iZYBng2GT4HkoBX4vvtyyJv85J1jJUJ3lUY1S/3t75paS1gztH67W72xpqhPspgSv4wl3lmiBZ3rw==
 
-"@axinom/mosaic-portal@0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@axinom/mosaic-portal/-/mosaic-portal-0.15.0.tgz#a229f55233d1d6111ba871ff71fd5187df3fb192"
-  integrity sha512-IKGts/D1e3j7zsW4PxEagL+kl8APulSSsqAAcAQU+JDe2ur5CzROBOIRQFioY2jobHFT5c1Mjy8YGl6deHW5cg==
+"@axinom/mosaic-portal@0.16.0-rc.3":
+  version "0.16.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@axinom/mosaic-portal/-/mosaic-portal-0.16.0-rc.3.tgz#bf888ef6fb94e0c3918a98204e065d2fa2b86e1c"
+  integrity sha512-vN6FOi/Qk30DQAabi1QS1Y9QMhzevjFOpnHW4VQAKkHfJ+5kv0x4TnQ+p5ToiEt2gyPOTYwAAmU11gy9x6wsqA==
 
 "@axinom/mosaic-service-common@0.31.0", "@axinom/mosaic-service-common@^0.31.0":
   version "0.31.0"

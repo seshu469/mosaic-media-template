@@ -43,6 +43,7 @@ export type MinimalDbTestConfig = MinimalDbConfig & DbTestConfig;
 export async function recreateTestDbTemplate(
   dbConfig: CustomizableDbTestConfig,
   migrationSettings: Settings,
+  enableReplication?: boolean,
 ): Promise<void> {
   const rootPgPool = await initializePgPool(dbConfig.pgRootConnectionString);
 
@@ -65,6 +66,7 @@ export async function recreateTestDbTemplate(
     dbConfig.dbLoginPassword,
     dbConfig.dbOwner,
     dbConfig.dbOwnerPassword,
+    enableReplication,
   );
 
   await rootPgPool.end();
